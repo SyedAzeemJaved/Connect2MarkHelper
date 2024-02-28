@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Connect2MarkHelper",
-    "slug": "Connect2MarkHelper",
+    "name": "connect2markhelper",
+    "slug": "connect2markhelper",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -29,7 +29,7 @@
         "android.permission.BLUETOOTH_ADMIN",
         "android.permission.BLUETOOTH_CONNECT"
       ],
-      "package": "com.syedazeemjaved.Connect2MarkHelper"
+      "package": "com.syedazeemjaved.connect2markhelper"
     },
     "plugins": [
       [
@@ -51,7 +51,7 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "5cde4bd0-5475-4443-b3f5-aac710d31397"
+        "projectId": "170caa63-beaf-4a8f-85fe-901e28f0c6ac"
       }
     }
   }
