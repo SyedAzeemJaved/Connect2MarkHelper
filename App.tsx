@@ -1,5 +1,6 @@
 import { useCallback } from 'react';
 
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
 
 import * as SplashScreen from 'expo-splash-screen';
@@ -25,8 +26,10 @@ export default function App() {
   }
 
   return (
-    <NavigationContainer onReady={onLayoutRootView}>
-      <Navigation />
-    </NavigationContainer>
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <NavigationContainer onReady={onLayoutRootView}>
+        <Navigation />
+      </NavigationContainer>
+    </GestureHandlerRootView>
   );
 }

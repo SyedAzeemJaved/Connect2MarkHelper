@@ -1,5 +1,3 @@
-import { useContext } from 'react';
-
 import { createStackNavigator } from '@react-navigation/stack';
 
 import { DashboardScreen } from '@screens';

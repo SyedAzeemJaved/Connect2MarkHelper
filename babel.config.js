@@ -13,6 +13,7 @@ module.exports = function (api) {
             '@navigations': './src/navigations/index.ts',
             '@screens': './src/screens/index.ts',
             '@types': './src/types/index.ts',
+            '@utils': './src/utils/index.ts',
           },
         },
       ],

@@ -8,7 +8,8 @@
       "@hooks": ["src/hooks/index.ts"],
       "@navigations": ["src/navigations/index.ts"],
       "@screens": ["src/screens/index.ts"],
-      "@types": ["src/types/index.ts"]
+      "@types": ["src/types/index.ts"],
+      "@utils": ["src/utils/index.ts"]
     },
     "module": "esnext",
     "target": "ES5"
